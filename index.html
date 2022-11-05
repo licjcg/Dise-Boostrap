@@ -7,7 +7,7 @@
     <title>MMV-Mangagement Marketing y Ventas para emprendedores</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
+    <link rel="icon" type="image/png" href="./img/favicon.png"/>
 </head>
 <body>
   <!-- Navbar  -->
@@ -39,7 +39,7 @@
             <a class="nav-link text-white" href="./loquehago.html">Lo que hago</a>
           </div>
           <div class="nav-item">
-            <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+            <a class="nav-link text-white" href="#contacto">Contacto</a>
           </div>
         </div>
       </div>
@@ -52,11 +52,60 @@ class="banner-image banner-image-index w-100 vh-100 d-flex justify-content-cente
 <div class="content text-center">
   <img class="logo-header navbar-brand" src="./img/Bannerjcg.png" alt="">
 </div>
-</div>       
- <!-- Aqui comienza el Footer - pie de página -->
+</div>
+<!-- inicio body -->
+<div class="container">
+  <h2>Soy un enamorado de la vida, apasionado de la naturaleza, el deporte y la música, sintiéndome parte de las personas
+    que transforman sus vidas y nuestra sociedad.</h2><br><h2>Y lo hago así...</h2>
+</div>
+
+<!-- Tarjetas -->
+<div class="container">
+<div class="row align-items-center">
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <center><img  src="./img/computer.png" class="card-img-top" alt="..." id="icon"></center>
+      <div class="card-body">
+        <h5 class="card-title">Management</h5>
+        <p class="card-text">Poniendo los sueños en un lienzo para hacerlos realidad.</p>
+        <a href="./loquehago.html" class="btn btn-primary">Saber más</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <center><img src="./img/settings.png" class="card-img-top" alt="..." id="icon"></center>
+      <div class="card-body">
+        <h5 class="card-title">Marketing</h5>
+        <p class="card-text">Contando historias que inspiren a la acción.</p>
+        <a href="./loquehago.html" class="btn btn-primary">Saber más</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <center><img id="icon" src="./img/ads.png" class="card-img-top" alt="..."></center>
+      <div class="card-body">
+        <h5 class="card-title">Ventas</h5>
+        <p class="card-text">Eso que soñamos, lo hacemos realidad, aquí y ahora.</p>
+        <a href="./loquehago.html" class="btn btn-primary">Saber más</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Botón para agendar turno -->
+
+<div class="d-grid gap-2 col-3 mx-auto" id="boton">
+  <a href="https://calendly.com/patagonialegal/llamada-informativa"><button class="btn btn-primary" type="button">Click aquí para agendar una consulta GRATIS</button></a>
+</div>
+
+<!-- Aqui comienza el Footer - pie de página -->
  <footer>
 
-    <div class="container__footer">
+    <div class="container__footer" id="contacto">
         <div class="box__footer">
             <div class="logo">
                 <img src="./img/logo2-b-footer.png" alt="">
@@ -65,9 +114,8 @@ class="banner-image banner-image-index w-100 vh-100 d-flex justify-content-cente
         <div class="box__footer">
             <h3>Menú</h3>
             <a href="#">Inicio</a>
-            <a href="#">Yo</a>
-            <a href="#">Lo que hago</a>
-            <a href="#">Contacto</a>
+            <a href="./yo.html">Yo</a>
+            <a href="./loquehago.html">Lo que hago</a>
         </div>
 
         <div class="box__footer">
